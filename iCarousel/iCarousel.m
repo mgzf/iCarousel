@@ -816,8 +816,8 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 #ifdef ICAROUSEL_IOS
     
     //center view
-    view.superview.center = CGPointMake(self.bounds.size.width/2.0 + _contentOffset.width,
-                                        self.bounds.size.height/2.0 + _contentOffset.height);
+//    view.superview.center = CGPointMake(self.bounds.size.width/2.0 + _contentOffset.width,
+//                                        self.bounds.size.height/2.0 + _contentOffset.height);
     
     //enable/disable interaction
     view.superview.userInteractionEnabled = (!_centerItemWhenSelected || index == self.currentItemIndex);
